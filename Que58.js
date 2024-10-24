@@ -9,5 +9,4 @@ let result = [];
 for (let i = 0; i < arr.length; i++) {
   result[arr.length - i - 1] = arr[i];
 }
-
 console.log(result);
